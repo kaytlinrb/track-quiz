@@ -1,6 +1,20 @@
 .intro{
   margin-top: 15px;
 }
-.body{
-  background-image: url("codebg.jpg");
+#ruby, #csharp, #css, #any{
+  display: none;
+}
+
+#background{
+  background-image: url("../img/codebg.jpg");
+  background-image: fixed;
+}
+
+h4{
+  font-weight: bold;
+}
+
+hr{
+  border: 2px blue;
+
 }
