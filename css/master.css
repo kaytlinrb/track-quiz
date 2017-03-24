@@ -4,10 +4,20 @@
 #ruby, #csharp, #css, #any{
   display: none;
 }
+#epicodus-picture{
+  width:15%;
+  margin:10px;
+}
 
 #background{
   background-image: url("../img/codebg.jpg");
   background-attachment: fixed;
+}
+.jumbotron, button{
+  background-color: #e6fff2;
+}
+.jumbotron{
+  margin-top: 3%
 }
 
 h4{
@@ -15,6 +25,7 @@ h4{
 }
 
 hr{
-  border: 2px blue;
+  border: 2px solid #ccffe6;
+  width: 40%
 
 }
