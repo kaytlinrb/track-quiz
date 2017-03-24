@@ -7,7 +7,7 @@
 
 #background{
   background-image: url("../img/codebg.jpg");
-  background-image: fixed;
+  background-attachment: fixed;
 }
 
 h4{

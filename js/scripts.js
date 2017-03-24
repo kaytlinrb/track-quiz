@@ -8,12 +8,16 @@ $(function() {
     var question5= $("#product").val();
 
     if ((question1 === "frontend") && (question5 === "design")) {
+      $("form").hide();
       $("#css").show();
     } else if ((question1 === "backend") && (question3 === "startup")) {
+      $("form").hide();
       $("#ruby").show();
     } else if ((question3 === "large-business") && (question2 === "soft")) {
+      $("form").hide();
       $("#csharp").show();
     } else {
+      $("form").hide();
       $("#any").show();
     }
 
