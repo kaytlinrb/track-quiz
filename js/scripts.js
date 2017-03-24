@@ -1,5 +1,5 @@
 $(function() {
-  
+
   $("#track-form").submit(function(event) {
     event.preventDefault();
     var question1= $("#development").val();
@@ -19,8 +19,9 @@ $(function() {
       $("form, hr").hide();
       $("#csharp").show();
     } else {
-      $("form, hr").hide();
+      $("form, hr h3").hide();
       $("#any").show();
+      $("#css, #ruby, #csharp").show();
     }
 
     $("span.name").text(userName);
