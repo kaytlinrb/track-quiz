@@ -1,4 +1,5 @@
 $(function() {
+  
   $("#track-form").submit(function(event) {
     event.preventDefault();
     var question1= $("#development").val();
@@ -6,21 +7,23 @@ $(function() {
     var question3= $("#workplace").val();
     var question4= $("#object-orientation").val();
     var question5= $("#product").val();
+    var userName= $("#user-name").val();
 
     if ((question1 === "frontend") && (question5 === "design")) {
-      $("form").hide();
+      $("form, hr").hide();
       $("#css").show();
     } else if ((question1 === "backend") && (question3 === "startup")) {
-      $("form").hide();
+      $("form, hr").hide();
       $("#ruby").show();
     } else if ((question3 === "large-business") && (question2 === "soft")) {
-      $("form").hide();
+      $("form, hr").hide();
       $("#csharp").show();
     } else {
-      $("form").hide();
+      $("form, hr").hide();
       $("#any").show();
     }
 
+    $("span.name").text(userName);
 
   });
 });

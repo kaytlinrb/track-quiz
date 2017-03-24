@@ -13,7 +13,7 @@
   background-image: url("../img/codebg.jpg");
   background-attachment: fixed;
 }
-.jumbotron, button{
+.jumbotron, button, .well{
   background-color: #e6fff2;
 }
 .jumbotron{
