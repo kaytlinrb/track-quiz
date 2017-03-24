@@ -23,6 +23,11 @@
 h4{
   font-weight: bold;
 }
+.icon{
+  width:70px;
+  display: inline-block;
+  float: right;
+}
 
 hr{
   border: 2px solid #e8d5a7;
