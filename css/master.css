@@ -14,7 +14,7 @@
   background-attachment: fixed;
 }
 .jumbotron, button, .well{
-  background-color: #e6fff2;
+  background-color: #fff4d6;
 }
 .jumbotron{
   margin-top: 3%
@@ -25,7 +25,7 @@ h4{
 }
 
 hr{
-  border: 2px solid #ccffe6;
+  border: 2px solid #e8d5a7;
   width: 40%
 
 }

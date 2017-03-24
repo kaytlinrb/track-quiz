@@ -9,19 +9,19 @@ $(function() {
     var question5= $("#product").val();
     var userName= $("#user-name").val();
 
-    if ((question1 === "frontend") && (question5 === "design")) {
+    if ((question1 === "frontend") || (question5 === "design")) {
       $("form, hr").hide();
       $("#css").show();
-    } else if ((question1 === "backend") && (question3 === "startup")) {
+    } else if ((question2 === "webapp") && (question3 === "startup")) {
       $("form, hr").hide();
       $("#ruby").show();
     } else if ((question3 === "large-business") && (question2 === "soft")) {
       $("form, hr").hide();
       $("#csharp").show();
     } else {
-      $("form, hr h3").hide();
-      $("#any").show();
+      $("form, hr").hide();
       $("#css, #ruby, #csharp").show();
+      $("#any").show();
     }
 
     $("span.name").text(userName);
